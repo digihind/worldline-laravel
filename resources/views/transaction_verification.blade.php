@@ -3,7 +3,7 @@
 <head>
     <title>Transaction Verification</title>
     <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{asset('/public/css/bootstrap.min.css')}}">
 </head>
 <body>
 

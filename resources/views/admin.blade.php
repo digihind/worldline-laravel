@@ -17,13 +17,13 @@
 <head>
     <title>Worldline Admin</title>
     <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{asset('/public/css/bootstrap.min.css')}}">
 </head>
 <body>
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <img src="{{asset('image/worldline.png')}}" alt="worldline" style="width:400px;">
+                <img src="{{asset('/public/image/worldline.png')}}" alt="worldline" style="width:400px;">
                 <h2>Worldline Admin Details</h2>
                 <form method="POST" id="myform" action="submit_request">
                     @csrf
